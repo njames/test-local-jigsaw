@@ -1,0 +1,25 @@
+{
+    "name": "nigeljames/test-local-jigsaw",
+    "description": "test for OS/jigsaw",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nigel James",
+            "email": "nigel.james@squarecloud.com.au"
+        }
+    ],
+    "require": {
+	"tightenco/jigsaw": "@dev"
+    },
+
+    "repositories": [
+	{
+	"type": "path",
+        "url": "~/OS/jigsaw",
+        "options": {
+            "symlink": true
+           }
+        }
+    ]
+}
